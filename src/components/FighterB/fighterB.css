@@ -1,0 +1,44 @@
+.fighter-b {
+  background-color: #e71d36;
+  margin: 3%;
+  width: 90%;
+  border-radius: 15px 35px 15px 15px;
+  box-shadow: 0px 0px 10px rgb(132, 132, 133);
+}
+h4,
+h1 {
+  color: #011627;
+}
+.btn-container {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  margin: 0;
+  background-color: aliceblue;
+  border-radius: 0px 0px 15px 15px;
+}
+.btn-control {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: space-around;
+
+  background-color: aliceblue;
+  color: #011627;
+  cursor: pointer;
+  width: 100%;
+}
+.btn-control:hover {
+  background-color: #e71d36;
+  color: aliceblue;
+  border-radius: 0px 0px 15px 15px;
+  height: 100%;
+  transition: width 2s, height 4s;
+}
+@media only screen and (max-width: 600px) {
+  .btn-control {
+    font-size: 80%;
+  }
+}
