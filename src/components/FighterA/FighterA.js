@@ -10,7 +10,7 @@ function FighterA() {
   return (
     <div className="container">
       <div className="fighter-a">
-        <div>
+        <div className="count-container">
           <h1>{count}</h1>
         </div>
         <div className="adv-con">
@@ -22,16 +22,13 @@ function FighterA() {
             -
           </div>
           <div className="adv-control" onClick={() => setAdv((adv = 0))}>
-            reset
+            reset 
           </div>
         </div>
 
         <div className="btn-container">
           <div className="btn-control" onClick={() => setCount(count - 1)}>
             -
-          </div>
-          <div className="btn-control" onClick={() => setCount((count = 0))}>
-            reset
           </div>
           <div className="btn-control" onClick={() => setCount(count + 2)}>
             +2
@@ -41,6 +38,9 @@ function FighterA() {
           </div>
           <div className="btn-control" onClick={() => setCount(count + 4)}>
             +4
+          </div>
+          <div className="btn-control" onClick={() => setCount((count = 0))}>
+            Reset 
           </div>
         </div>
       </div>

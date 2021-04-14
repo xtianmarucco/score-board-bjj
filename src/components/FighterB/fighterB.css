@@ -1,21 +1,27 @@
 .container {
-  width: 100%;
-  padding-left: 25%;
-  padding-right: 25%;
+  width: 60%;
+  
 }
 
 .fighter-b {
-  background-color: #e71d36;
-  margin: 3%;
-  width: 60%;
+  background-color: cornflowerblue;
+  margin-top: 25px;
+  width: 80%;
   border-radius: 15px 35px 15px 15px;
   box-shadow: 0px 0px 10px rgb(132, 132, 133);
-  border: #e71d36 solid;
+  border: cornflowerblue solid;
 }
 h4,
 h1 {
   color: #011627;
 }
+
+ .count-container{
+  height: 120px;
+ padding-top: 20px;
+}
+
+
 .btn-container {
   display: flex;
   height: 50px;
@@ -49,7 +55,16 @@ h1 {
 
   .container {
     width: 100%;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
+
+  .fighter-b {
+  background-color: cornflowerblue;
+  margin-top: 25px;
+  width: 100%;
+  border-radius: 15px 35px 15px 15px;
+  box-shadow: 0px 0px 10px rgb(132, 132, 133);
+  border: cornflowerblue solid;
+}
 }
